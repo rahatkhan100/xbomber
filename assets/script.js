@@ -11,7 +11,6 @@ $(document).ready(() => {
         if (amount > 0 && mobile.length == 10) {
             var c = 0;
 
-            Example of variable based api list , if you use this, comment out the fetch method
             const APIS = [
                 {
                     method: "POST",
